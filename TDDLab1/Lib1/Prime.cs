@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lib1
 {
-    public class Class1
+    public class Prime
     {
+        public static bool IsPrime(int candidate)
+        {
+            return false;
+        }
     }
 }
