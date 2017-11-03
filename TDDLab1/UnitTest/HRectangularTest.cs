@@ -8,7 +8,7 @@ namespace UnitTest
     public class HRectangularTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void HRectangularTest1()
         {
             var hRect = new HRectangular(4.0, 5.0);
             var actual = hRect.computeArea();

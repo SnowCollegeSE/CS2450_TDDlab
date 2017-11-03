@@ -17,5 +17,12 @@ namespace UnitTest
         {
             Assert.IsTrue(Prime.IsPrime(candidate), candidate + " Should be Prime!");
         }
+
+        [TestMethod]
+        public void PrimeStringLooksGood()
+        {
+            Assert.AreEqual("Primes found: 7, 5, 3, 2, 1", Prime.ListPrimesLTEQ(8));
+
+        }
     }
 }
