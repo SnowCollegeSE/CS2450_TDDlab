@@ -4,10 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Lib1
 {
     public class Prime
     {
+        public static bool IsSquare(int candidate)
+        {
+            double temp;
+            temp = Math.Sqrt(candidate);
+            if (Math.Floor(temp) == temp)
+                return true;
+            else return false;
+        }
         public static bool IsPrime(int candidate)
         {
             //return false;
